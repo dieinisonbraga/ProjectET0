@@ -1,0 +1,59 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.M5P -M 4.0
+Relation:     train_et0
+Instances:    267
+Attributes:   15
+              pressao_atm_max
+              pressao_atm_min
+              chuva_mm
+              temp_ar_max
+              temp_ar_min
+              umid_relat_max
+              umid_relat_min
+              rad_solar_total
+              temp_max
+              temp_min
+              temp_ar_media
+              umid_relat_media
+              vento_veloc
+              rad_solar_media
+              et0
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+M5 pruned model tree:
+(using smoothed linear models)
+LM1 (267/17.298%)
+
+LM num: 1
+et0 = 
+	-0.0004 * pressao_atm_max 
+	+ 0.0032 * temp_ar_max 
+	+ 0.0077 * temp_ar_min 
+	+ 0.0019 * umid_relat_max 
+	+ 0 * rad_solar_total 
+	- 0.0093 * temp_max 
+	- 0.0015 * temp_min 
+	- 0.0001 * umid_relat_media 
+	+ 0.0274 * vento_veloc 
+	+ 0.0632
+
+Number of Rules : 1
+
+Time taken to build model: 0.23 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.01 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.8773
+Mean absolute error                      0.0056
+Root mean squared error                  0.007 
+Relative absolute error                 17.0842 %
+Root relative squared error             19.9966 %
+Total Number of Instances               66     
+

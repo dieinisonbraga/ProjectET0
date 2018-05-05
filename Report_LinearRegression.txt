@@ -1,0 +1,58 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     train_et0
+Instances:    267
+Attributes:   15
+              pressao_atm_max
+              pressao_atm_min
+              chuva_mm
+              temp_ar_max
+              temp_ar_min
+              umid_relat_max
+              umid_relat_min
+              rad_solar_total
+              temp_max
+              temp_min
+              temp_ar_media
+              umid_relat_media
+              vento_veloc
+              rad_solar_media
+              et0
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+et0 =
+
+     -0.0004 * pressao_atm_max +
+     -0.003  * temp_ar_max +
+      0.0016 * temp_ar_min +
+      0.001  * umid_relat_max +
+     -0.001  * umid_relat_min +
+     -0.0093 * temp_max +
+     -0.0016 * temp_min +
+      0.0125 * temp_ar_media +
+      0.0018 * umid_relat_media +
+      0.0273 * vento_veloc +
+      0.0012 * rad_solar_media +
+      0.0542
+
+Time taken to build model: 0.12 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.01 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.8696
+Mean absolute error                      0.0056
+Root mean squared error                  0.0072
+Relative absolute error                 17.1925 %
+Root relative squared error             20.4571 %
+Total Number of Instances               66     
+
