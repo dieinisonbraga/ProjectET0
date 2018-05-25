@@ -24,19 +24,19 @@ The data-set contains fifteen (15) features captured by weather station located 
 
 ### Atribute information
 
-'data' = Date
-'pressao_atm_max' = Maximum atmospheric pressure
-'pressao_atm_min' = Minimum atmospheric pressure 
-'chuva_mm' = Preciptation 
-'temp_ar_max' = Maximum air temperature
-'temp_ar_min' = Minimum air temperature
-'temp_ar_media' = Average air temperature
-'umid_relat_max' = Maximum relative humidity
-'umid_relat_min' = Minimum relative humidity
-'umid_relat_media' = average relative humidity
-'rad_solar_total' = Total solar radiation
-'rad_solar_media' = Average solar radiation
-'temp_max' = Maximum temperature
-'temp_min' = Minimum temperature
-'vento_veloc' = Wind Speed
+'data' = Date,
+'pressao_atm_max' = Maximum atmospheric pressure,
+'pressao_atm_min' = Minimum atmospheric pressure, 
+'chuva_mm' = Preciptation, 
+'temp_ar_max' = Maximum air temperature,
+'temp_ar_min' = Minimum air temperature,
+'temp_ar_media' = Average air temperature,
+'umid_relat_max' = Maximum relative humidity,
+'umid_relat_min' = Minimum relative humidity,
+'umid_relat_media' = average relative humidity,
+'rad_solar_total' = Total solar radiation,
+'rad_solar_media' = Average solar radiation,
+'temp_max' = Maximum temperature,
+'temp_min' = Minimum temperature,
+'vento_veloc' = Wind Speed,
 'et0' = Reference evapotranspiration
